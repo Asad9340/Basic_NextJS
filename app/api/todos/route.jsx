@@ -1,5 +1,5 @@
 export async function GET() {
-  const res = await fetch('https://jsonplaceholder.typicode.com/todos', {
+  const res = await fetch('https://dummyjson.com/todos', {
     headers: {
       'Content-Type': 'application/json',
     },
