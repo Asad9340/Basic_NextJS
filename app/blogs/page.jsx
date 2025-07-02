@@ -2,7 +2,7 @@
 const page = async () => {
   return (
     <div className="min-h-screen bg-gray-100 p-8">
-      <h1 className="text-3xl font-bold mb-6">📝 To-Do List</h1>
+      <h1 className="text-3xl font-bold mb-6">To-Do List</h1>
 
       <div className="flex mb-4">
         <input
@@ -16,7 +16,7 @@ const page = async () => {
           onClick={addTask}
           className="bg-blue-600 text-white px-4 rounded-r-md hover:bg-blue-700"
         >
-          Add
+          Add Blog
         </button>
       </div>
 
@@ -31,7 +31,7 @@ const page = async () => {
               onClick={() => removeTask(i)}
               className="text-red-600 hover:underline"
             >
-              Remove
+              Remove Blog
             </button>
           </li>
         ))}
